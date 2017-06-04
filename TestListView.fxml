@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestListView.TestListViewController">
+   <children>
+      <ListView fx:id="list" layoutX="15.0" layoutY="47.0" onKeyReleased="#handleKEY1" orientation="HORIZONTAL" prefHeight="128.0" prefWidth="570.0" onMouseClicked="#handleCLICK" />
+      <Button layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleHOLDERUP" prefHeight="22.0" prefWidth="55.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Folder(UP).png" />
+               </image></ImageView>
+         </graphic></Button>
+      <Button layoutX="530.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleHOLDEROPEN" prefHeight="22.0" prefWidth="55.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Folder.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="475.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleENTER" prefHeight="22.0" prefWidth="55.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Enter.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextField fx:id="text" layoutX="71.0" layoutY="14.0" onKeyReleased="#handleKEY2" prefHeight="28.0" prefWidth="405.0" />
+      <ImageView fx:id="imageview" fitHeight="387.0" fitWidth="570.0" layoutX="15.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
