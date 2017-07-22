@@ -1,0 +1,29 @@
+#+TITLE:	README for TestListView
+#+AUTHOR:	hanuomk2(odaba)
+#+DATE:		2017-06-03
+
+* TestListView
+
+JavaFXによる、フォルダ内の画像ファイルをリスト表示し、
+リストから選択した画像を拡大表示するよくあるビューア
+
+** 環境
+
+ - OS: 		Microsoft Windows 7 pro 64bit
+ - IDE: 	NetBeans IDE 8.0.2 
+ - JDK:		Java SE Development Kit 8 Update 92(64-bit) 
+
+** 使い方
+
+適当なフォルダにzipファイルを展開し、
+NetBeans IDEで"TestListView.java"ファイルを開き、
+「実行」…「ファイルの実行」を選択して下さい
+(他のIDEでも多分動作すると思います)。
+
+** その他
+
+ - fxmlでGUIを作成
+
+** 画面
+
+ [[file:TestListView.jpg]] 
